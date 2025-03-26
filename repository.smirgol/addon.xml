@@ -14,11 +14,7 @@
         <disclaimer></disclaimer>
         <platform>linux</platform>
         <assets>
-            <icon>resources/icon.png</icon>
-            <fanart>resources/fanart.jpg</fanart>
-            <screenshot>resources/screenshot-01.jpg</screenshot>
-            <screenshot>resources/screenshot-02.jpg</screenshot>
-            <screenshot>resources/screenshot-03.jpg</screenshot>
+            <icon>icon.png</icon>
         </assets>
     </extension>
 </addon>

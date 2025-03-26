@@ -52,4 +52,28 @@
             <screenshot>resources/media/screenshot-03.jpg</screenshot>
         </assets>
     </extension>
-</addon></addons>
+</addon>
+
+<addon id="repository.smirgol" name="smirgol's repository" version="1.0.0" provider-name="smirgol">
+    <extension point="xbmc.addon.repository" name="smirgol's repository">
+		<dir>
+            <dir minversion="19.0.0" maxversion="19.9.9">
+                <info compressed="false">https://raw.githubusercontent.com/smirgol/crunchyroll_repo/refs/heads/main/matrix/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/smirgol/crunchyroll_repo/refs/heads/main/matrix/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/smirgol/crunchyroll_repo/refs/heads/main/matrix/</datadir>
+                <hashes>false</hashes>
+            </dir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>smirgol's repository</summary>
+        <description>Kodi addons by smirgol</description>
+        <disclaimer></disclaimer>
+        <platform>linux</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+</addons>

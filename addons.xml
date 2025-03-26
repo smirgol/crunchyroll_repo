@@ -16,7 +16,7 @@
             </dir>
             <dir minversion="20.0.0">
                 <info compressed="false">https://raw.githubusercontent.com/smirgol/crunchyroll_repo/refs/heads/main/nexus/addons.xml</info>
-                <checksum>hhttps://raw.githubusercontent.com/smirgol/crunchyroll_repo/refs/heads/main/nexus/addons.xml.md5</checksum>
+                <checksum>https://raw.githubusercontent.com/smirgol/crunchyroll_repo/refs/heads/main/nexus/addons.xml.md5</checksum>
                 <datadir zip="true">https://raw.githubusercontent.com/smirgol/crunchyroll_repo/refs/heads/main/nexus/</datadir>
                 <hashes>false</hashes>
             </dir>
@@ -36,11 +36,11 @@
             <source>https://github.com/smirgol/plugin.video.crunchyroll</source>
             <license>GNU Affero General Public License, v3</license>
             <assets>
-                <icon>resources/icon.png</icon>
-                <fanart>resources/fanart.jpg</fanart>
-                <screenshot>resources/screenshot-01.jpg</screenshot>
-                <screenshot>resources/screenshot-02.jpg</screenshot>
-                <screenshot>resources/screenshot-03.jpg</screenshot>
+                <icon>https://raw.githubusercontent.com/smirgol/crunchyroll_repo/refs/heads/main/resources/icon.png</icon>
+                <fanart>https://raw.githubusercontent.com/smirgol/crunchyroll_repo/refs/heads/main/resources/fanart.jpg</fanart>
+                <screenshot>https://raw.githubusercontent.com/smirgol/crunchyroll_repo/refs/heads/main/resources/screenshot-01.jpg</screenshot>
+                <screenshot>https://raw.githubusercontent.com/smirgol/crunchyroll_repo/refs/heads/main/resources/screenshot-02.jpg</screenshot>
+                <screenshot>https://raw.githubusercontent.com/smirgol/crunchyroll_repo/refs/heads/main/resources/screenshot-03.jpg</screenshot>
             </assets>
         </extension>
     </addon>

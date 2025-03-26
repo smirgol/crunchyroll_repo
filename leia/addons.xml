@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addons><addon id="plugin.video.crunchyroll" name="Crunchyroll" version="3.4.0" provider-name="MrKrabat">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0" />
+        <import addon="script.module.inputstreamhelper" version="0.3.3" />
+        <import addon="script.module.requests" version="2.22.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <language>en es pt fr de ar it ru</language>
+        <summary lang="en_GB">Watch videos from Crunchyroll.com!</summary>
+        <summary lang="de_DE">Schaue Videos von Crunchyroll.com!</summary>
+        <description lang="en_GB">Crunchyroll is an online video service and community that offers full-length episodes and movies of the very best in Japanese anime and Asian entertainment.</description>
+        <description lang="de_DE">Crunchyroll ist ein online Video-Streaming-Dienst und bietet Zugang zu vollen Episoden und Filmen der besten japanischen Anime und asiatischer Unterhaltung.</description>
+        <disclaimer lang="en_GB">WARNING: You MUST be a PREMIUM member to use this Plugin</disclaimer>
+        <disclaimer lang="de_DE">HINWEIS: Du MUSST PREMIUM Mitglied sein um dieses Plugin zu benutzen</disclaimer>
+        <news>
+            v3.4.0 (2025.03.26) - streamline version numbers across kodi releases and adapt to MAJOR.MINOR.PATCH format
+            v3.1.2.10 (2023.12.24) - add setting for soft subtitles
+            v3.1.2.9 (2023.12.21) - re-add a-z view
+            v3.1.2.8 (2023.12.20) - add to watchlist functionality
+            v3.1.2.7 (2023.12.20) - improve session handling, option for alternate subtitle language
+            v3.1.2.6 (2023.12.19) - partially re-implement anime view
+            v3.1.2.5 (2023.12.19) - re-implement history view
+            v3.1.2.4 (2023.12.19) - fix queue view for movie items
+            v3.1.2.3 (2023.12.19) - fix queue view for movie items, cleanup, search re-implemented
+            v3.1.2.2 (2023.12.18) - revert change of package name, sync playtime with crunchyroll
+            v3.1.2.1 (2023.12.17) - Update for new API (alpha)
+            v3.1.1 (2018.09.29) - Remove video quality selection
+        </news>
+        <license>GNU Affero General Public License, v3</license>
+        <forum />
+        <website>https://www.crunchyroll.com/</website>
+        <source>https://github.com/smirgol/plugin.video.crunchyroll/tree/leia</source>
+        <email />
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+            <screenshot>resources/media/screenshot-01.jpg</screenshot>
+            <screenshot>resources/media/screenshot-02.jpg</screenshot>
+            <screenshot>resources/media/screenshot-03.jpg</screenshot>
+        </assets>
+    </extension>
+</addon></addons>

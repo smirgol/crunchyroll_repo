@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+    <addon id="plugin.video.crunchyroll" name="Crunchyroll" version="3.4.0" provider-name="smirgol">
+        <extension point="xbmc.addon.repository" name="Crunchyroll Addon Repository">
+            <dir minversion="18.0.0" maxversion="18.9.9">
+                <info compressed="false">https://github.com/smirgol/crunchyroll_repo/tree/main/leia/addons.xml</info>
+                <checksum>https://github.com/smirgol/crunchyroll_repo/tree/main/leia/addons.xml.md5</checksum>
+                <datadir zip="true">https://github.com/smirgol/crunchyroll_repo/tree/main/leia/</datadir>
+                <hashes>false</hashes>
+            </dir>
+            <dir minversion="19.0.0" maxversion="19.9.9">
+                <info compressed="false">https://github.com/smirgol/crunchyroll_repo/tree/main/matrix/addons.xml</info>
+                <checksum>https://github.com/smirgol/crunchyroll_repo/tree/main/matrix/addons.xml.md5</checksum>
+                <datadir zip="true">https://github.com/smirgol/crunchyroll_repo/tree/main/matrix/</datadir>
+                <hashes>false</hashes>
+            </dir>
+            <dir minversion="20.0.0">
+                <info compressed="false">https://github.com/smirgol/crunchyroll_repo/tree/main/nexus/addons.xml</info>
+                <checksum>hhttps://github.com/smirgol/crunchyroll_repo/tree/main/nexus/addons.xml.md5</checksum>
+                <datadir zip="true">https://github.com/smirgol/crunchyroll_repo/tree/main/nexus/</datadir>
+                <hashes>false</hashes>
+            </dir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <platform>all</platform>
+            <language>en es pt fr de ar it ru</language>
+            <summary lang="en_GB">Watch videos from Crunchyroll.com!</summary>
+            <summary lang="de_DE">Schaue Videos von Crunchyroll.com!</summary>
+            <summary lang="es_ES">¡Visualiza vídeos a través de Crunchyroll.com!</summary>
+            <description lang="en_GB">Crunchyroll is an online video service and community that offers full-length episodes and movies of the very best in Japanese anime and Asian entertainment.</description>
+            <description lang="de_DE">Crunchyroll ist ein online Video-Streaming-Dienst und bietet Zugang zu vollen Episoden und Filmen der besten japanischen Anime und asiatischer Unterhaltung.</description>
+            <description lang="es_ES">Crunchyroll es un servicio de streaming online y una comunidad que ofrece episodios completos y películas del mejor anime japonés y entretenimiento asiático.</description>
+            <disclaimer lang="en_GB">WARNING: You MUST be a PREMIUM member to use this Plugin</disclaimer>
+            <disclaimer lang="de_DE">HINWEIS: Du MUSST PREMIUM Mitglied sein um dieses Plugin zu benutzen</disclaimer>
+            <disclaimer lang="es_ES">Atención: Necesitas ser miembro PREMIUM para utilizar este Plugin</disclaimer>
+            <source>https://github.com/smirgol/plugin.video.crunchyroll</source>
+            <license>GNU Affero General Public License, v3</license>
+            <assets>
+                <icon>resources/icon.png</icon>
+                <fanart>resources/fanart.jpg</fanart>
+                <screenshot>resources/screenshot-01.jpg</screenshot>
+                <screenshot>resources/screenshot-02.jpg</screenshot>
+                <screenshot>resources/screenshot-03.jpg</screenshot>
+            </assets>
+        </extension>
+    </addon>
+</addons>

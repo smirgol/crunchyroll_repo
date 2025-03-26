@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.smirgol" name="smirgol's Kodi add-on repository" version="1.0.0" provider-name="smirgol">
+    <extension point="xbmc.addon.repository" name="smirgol's Kodi addon repository">
+		<dir>
+            <info compressed="false">https://github.com/smirgol/crunchyroll_repo/tree/main/addons.xml</info>
+            <checksum>https://github.com/smirgol/crunchyroll_repo/tree/main/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/smirgol/crunchyroll_repo/tree/main/</datadir>
+            <hashes>false</hashes>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>smirgol's Kodi add-on repository</summary>
+        <description>Kodi addons by smirgol</description>
+        <disclaimer></disclaimer>
+        <platform>linux</platform>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+            <screenshot>resources/screenshot-01.jpg</screenshot>
+            <screenshot>resources/screenshot-02.jpg</screenshot>
+            <screenshot>resources/screenshot-03.jpg</screenshot>
+        </assets>
+    </extension>
+</addon>
+

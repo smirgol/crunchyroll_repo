@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.smirgol" name="smirgol's repository" version="1.0.0" provider-name="smirgol">
+<addon id="repository.smirgol" name="smirgol's repository" version="1.0.1" provider-name="smirgol">
     <extension point="xbmc.addon.repository" name="smirgol's repository">
         <dir minversion="18.0.0" maxversion="18.9.9">
             <info compressed="false">https://raw.githubusercontent.com/smirgol/crunchyroll_repo/refs/heads/main/leia/addons.xml</info>
@@ -24,7 +24,7 @@
         <summary>smirgol's repository</summary>
         <description>Kodi addons by smirgol</description>
         <disclaimer></disclaimer>
-        <platform>linux</platform>
+        <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
         </assets>

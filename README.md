@@ -24,7 +24,7 @@ Crunchyroll a KODI (XBMC) plugin for Crunchyroll.com
 
 Download and install the zip file of this repository. Download here:
 
-[Download repository zip file](https://raw.githubusercontent.com/smirgol/crunchyroll_repo/refs/heads/main/repository.smirgol/repository.smirgol-1.0.0.zip)
+[Download repository zip file](https://raw.githubusercontent.com/smirgol/crunchyroll_repo/refs/heads/main/repository.smirgol/repository.smirgol-1.0.1.zip)
 
 --- 
 
